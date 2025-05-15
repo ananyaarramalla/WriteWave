@@ -1,0 +1,36 @@
+
+###user creation
+POST http://localhost:4000/user-api/user
+Content-Type: application/json
+
+{
+    "userType":"user",
+    "username":"ananya",
+    "password":"ananya",
+    "email":"ananya@gmail.com"
+}
+
+###user login
+POST http://localhost:4000/user-api/login
+Content-Type: application/json
+
+{
+    "userType":"user",
+    "username":"ananya",
+    "password":"ananya"
+}
+
+###reading articles of user
+GET http://localhost:4000/user-api/articles
+
+
+###write comments
+POST http://localhost:4000/user-api/comment/1715798186218
+Content-Type: application/json
+
+{
+   
+    "username":"ananya",
+    "comment":"Amazing content"
+   
+}

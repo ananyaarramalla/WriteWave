@@ -1,0 +1,73 @@
+POST http://localhost:4000/author-api/author
+Content-Type: application/json
+
+{
+    "userType":"author",
+    "username":"aks",
+    "password":"aks",
+    "email":"aks@gmail.com"
+}
+
+###
+POST http://localhost:4000/author-api/login
+Content-Type: application/json
+
+{
+    "userType":"author",
+    "username":"vikas",
+    "password":"vikas"
+}
+
+
+###
+POST http://localhost:4000/author-api/article
+Content-Type: application/json
+
+{
+   "articleId":"{{$timestamp}}",
+   "title":"Fundamentals of JavaScript",
+   "category":"programming",
+   "content":"JavaScript is a high-level programming language that follows the ECMAScript standard. It was originally designed as a scripting language for websites but became widely adopted as a general-purpose programming language, and is currently the most popular programming language in use.[1] JavaScript is usually found running in a web browser as interactive or automated content, ranging from popup messages and live clocks to large web applications. JavaScript is also commonly used in server-side programming through platforms like Node.js,[2] or embedded in non-JavaScript applications where the base programming language lacks the high-level functionality that JavaScript offers.",
+   "dateOfCreation":"{{$datetime iso8601}}",
+   "dateOfModification":"{{$datetime iso8601}}",
+   "username":"vikas",
+   "comments": [ ],
+   "status":true
+   
+}
+
+###
+PUT http://localhost:4000/author-api/article
+Content-Type: application/json
+
+{
+   "articleId":"1715100818",
+   "title":"Fundamentals of JavaScript",
+   "category":"programming",
+   "content":"JavaScript is a high-level programming language that follows the ECMAScript standard. It was originally designed as a scripting language for websites but became widely adopted as a general-purpose programming language, and is currently the most popular programming language in use.[1] JavaScript is usually found running in a web browser as interactive or automated content, ranging from popup messages and live clocks to large web applications. JavaScript is also commonly used in server-side programming through platforms.",
+   "dateOfCreation":"2024-05-07T16:53:38.300Z",
+   "dateOfModification":"{{$datetime iso8601}}",
+   "username":"vikas",
+   "comments": [ ],
+   "status":true
+}
+
+###
+PUT http://localhost:4000/author-api/article/1715100818
+Content-Type: application/json
+
+{
+   "articleId":"1715100818",
+   "title":"Fundamentals of JavaScript",
+   "category":"programming",
+   "content":"JavaScript is a high-level programming language that follows the ECMAScript standard. It was originally designed as a scripting language for websites but became widely adopted as a general-purpose programming language, and is currently the most popular programming language in use.[1] JavaScript is usually found running in a web browser as interactive or automated content, ranging from popup messages and live clocks to large web applications. JavaScript is also commonly used in server-side programming through platforms.",
+   "dateOfCreation":"2024-02-26T13:56:22.487Z",
+   "dateOfModification":"{{$datetime iso8601}}",
+   "username":"vikas",
+   "comments": [ ],
+   "status":true
+   
+}
+
+###
+GET http://localhost:4000/author-api/articles/vikas
