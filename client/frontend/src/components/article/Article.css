@@ -1,0 +1,36 @@
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-top: 50px;
+}
+.commentbox{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.cmt{
+    font-size: 20px;
+}
+.cal{
+    background-color: #C1B9AB;
+    border-radius: 5px;
+}
+.edit{
+    background-color: #C1B9AB;
+}
+.article-con{
+    padding: 50px;
+}
+.cmtbox{
+    background-color: #C1B9AB;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.cmtbtn{
+    background-color: #C1B9AB;
+    border-radius: 5px;
+}
+
+.comment-message{
+    color: white;
+    font-size: 20px;
+}

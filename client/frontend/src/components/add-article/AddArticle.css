@@ -1,0 +1,13 @@
+.card-body{
+    background-color: #efedea;
+}
+.post{
+    background-color: #1A1412;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+}

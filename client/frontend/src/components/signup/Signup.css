@@ -1,0 +1,18 @@
+h2{
+    color:var(--gold);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+button[type=submit]{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.card{
+    background-color: #efedea
+}
+  
+.success{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

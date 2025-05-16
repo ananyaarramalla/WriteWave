@@ -1,0 +1,49 @@
+.bg-footer {
+    background-color: #1A1412;
+    padding: 25px 0 25px;
+    padding-left: 150px;
+}
+.footer-heading {
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.footer-link a {
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.footer-link a:hover {
+    color: #ffffff;
+}
+
+.contact-info {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+.footer-alt {
+    color: #ffffff;
+    margin-left: -90px;
+}
+
+.footer-heading {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-heading:after {
+    content: '';
+    width: 25px;
+    border-bottom: 1px solid #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 2px solid #ffffff;
+}
